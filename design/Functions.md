@@ -77,7 +77,7 @@ func select (x2 x2: Int, x1: Int) -> Int {
 
 Since we believe that such a naming convention is a bad practice, we do not plan to support it. An **error** will be raised when such a function is encountered.
 
-Note that other forms of function overloading are supported. They will be discussed in a later section.
+Note that other forms of function overloading are supported, as discussed in the next section.
 
 ## Function Overloading
 
@@ -114,7 +114,7 @@ function print () {
       return print$_F2sI(arg1);
     if (arg1.hasOwnProperty('conext') &&
         arg1.hasOwnProperty('object'))
-      return print%_a5X3(arg1);
+      return print$_a5X3(arg1);
   }
   return print$_TZ1F(arg1);
 }
